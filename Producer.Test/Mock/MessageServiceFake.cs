@@ -1,8 +1,8 @@
-using App.Services;
+using Producer.Services;
 
-namespace Tests.Mock
+namespace Producer.Test.Mock
 {
-    public class QueueFake : IQueue
+    public class MessageServiceFake : IMessageService
     {
         public Dictionary<string, List<string>> _queues = new Dictionary<string, List<string>>();
 
@@ -16,6 +16,4 @@ namespace Tests.Mock
             _queues[queueName].Add(message);
         }
     }
-
-
 }
