@@ -22,8 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\App\App.csproj" />
-    <ProjectReference Include="..\Leitor\Leitor.csproj" />
+    <ProjectReference Include="..\Consumer\Consumer.csproj" />
   </ItemGroup>
 
 </Project>

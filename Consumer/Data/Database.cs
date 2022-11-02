@@ -1,4 +1,4 @@
-namespace Leitor
+namespace Consumer.Data
 {
     public class Database : IDatabase
     {
@@ -13,6 +13,5 @@ namespace Leitor
         {
             Tabela.Add(item);
         }
-
     }
 }
